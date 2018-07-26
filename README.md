@@ -3,22 +3,45 @@ Random Forest Image Classification using Python
 
 Please follow below folder structure.
 
-|--image-classification (folder)
-|--|--dataset (folder)
-|--|--|--train (folder)
-|--|--|--|--cowbell (folder)
-|--|--|--|--|--image_1.jpg
-|--|--|--|--|--image_2.jpg
-|--|--|--|--|--...
-|--|--|--|--tulip (folder)
-|--|--|--|--|--image_1.jpg
-|--|--|--|--|--image_2.jpg
-|--|--|--|--|--...
-|--|--|--test (folder)
-|--|--|--|--image_1.jpg
-|--|--|--|--image_2.jpg
-|--|--output (folder)
-|--|--|--data.h5
-|--|--|--labels.h5
-|--|--random_fo_image.py
+
+
+<ul>
+  <li>image-classification (folder)</li>
+    <ul>
+      <li>dataset (folder)</li>
+      <ul>
+        <li>train (folder)</li>
+          <ul>
+            <li>Image Cat1 Folder</li>
+              <ul>
+                <li>train_img.jpg</li>
+                <li>train_img.jpg</li>
+                <li>train_img.jpg</li>
+                <li>.......</li>
+              </ul>
+            <li>Image Cat2 Folder</li>
+            <ul>
+                <li>train_img.jpg</li>
+                <li>train_img.jpg</li>
+                <li>train_img.jpg</li>
+                <li>.......</li>
+              </ul>
+          </ul>  
+        <li>test (folder)</li>
+          <ul>
+             <li>test_img.jpg</li>
+             <li>test_img.jpg</li>
+             <li>test_img.jpg</li>
+             <li>.......</li>
+           </ul>
+      </ul> 
+     <li>output (folder)</li> 
+      <ul>
+          <li>data.h5</li>
+          <li>labels.h5</li>
+       </ul> 
+    <li>random_fo_image.py</li>
+    </ul> 
+</ul>
+
 
